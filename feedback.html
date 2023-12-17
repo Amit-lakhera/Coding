@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Coding with style</title>
+    <style>
+        .box {
+            margin: 0;
+            padding: 0;
+            display: block;
+            background-color: aqua;
+        }
+        .box h1{
+            background-color: red;
+            height: 50px;
+            color: lawngreen;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        .box1{
+            margin-top: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="form.php">
+        <div class="box">
+            <h1>FEEDBACK FORM</h1>
+            <p>Enter your name:</p>
+            <input type="text" placeholder="Your name">
+            <p>Enter your email-id:</p>
+            <input type="text" placeholder="Email-id">
+            <p>Enter your contact number:</p>
+            <input type="text" placeholder="Mobile number">
+            <p>Choose your occupation:</p>
+            <label for="occupationtype1">
+                <input type="radio" name="occupation" value="type" id="occupationtype1">Self-Employed
+            </label>
+            <label for="occupationtype2">
+                <input type="radio" name="occupation" value="type" id="occupationtype2">Student
+            </label>
+            <label for="occupationtype3">
+                <input type="radio" name="occupation" value="type" id="occupationtype3">Doctor
+            </label>
+            <label for="occupationtype4">
+                <input type="radio" name="occupation" value="type" id="occupationtype4">Government-Employee
+
+            </label>
+            <label for="occupationtype5">
+                <input type="radio" name="occupation" value="type" id="occupationtype5">Others
+            </label><br>
+            <p>
+                If Others Please Specify:<br>
+                <textarea rows="1" cols="30"></textarea>
+            </p>
+            <p>Enter your age:</p>
+            <input type="date"><br>
+            <p>Choose the right option below:</p>
+            <label for="chooselevel1">
+                <input type="checkbox" name="level" value="choose" id="chooselevel1">Begginer
+            </label>
+            <label for="chooselevel2"></label>
+            <input type="checkbox" name="level" value="choose" id="chooselevel2">Advanced
+            </label>
+            <p>Please fill the required box for feedback:</p>
+            <textarea rows="5" cols="100"></textarea><br>
+            <div class="box1">
+                <input type="submit">
+                <input type="reset">
+            </div>
+
+        </div>
+    </form>
+</body>
+
+</html>
