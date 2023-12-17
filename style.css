@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+}
+.container nav{
+    display: block;
+    padding: 6px;
+    height: 30px;
+    background-color: black;
+}
+.container nav ul{
+    display: inline-block;
+}
+.container nav ul li{
+    display: inline-block;
+    width: 295px;
+    color:white;
+}
+.container nav ul li a{
+    text-decoration:black;
+    color: white;
+}
+.box1{
+    font-size:25px;
+    text-align: center;
+}
+.box2{
+    height:209px;
+}
